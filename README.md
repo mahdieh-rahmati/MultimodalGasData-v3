@@ -14,31 +14,34 @@ This repository hosts version 3 of the "MultimodalGasData: Multimodal Dataset fo
 
 ### Folder Structure:
 
-MultimodalGasDataset/
+# MultimodalGasDataset
+
+
 │
 ├── Gas_Sensors_Measurements/
-│ ├── Gas_Sensors_Measurements_train.csv
-│ ├── Gas_Sensors_Measurements_validation.csv
-│ └── Gas_Sensors_Measurements_test.csv
+│   ├── Gas_Sensors_Measurements_train.csv
+│   ├── Gas_Sensors_Measurements_validation.csv
+│   └── Gas_Sensors_Measurements_test.csv
 │
 └── Thermal_Camera_Images/
-├── train/
-│ ├── Mixture/
-│ ├── NoGas/
-│ ├── Perfume/
-│ └── Smoke/
-│
-├── validation/
-│ ├── Mixture/
-│ ├── NoGas/
-│ ├── Perfume/
-│ └── Smoke/
-│
-└── test/
-├── Mixture/
-├── NoGas/
-├── Perfume/
-└── Smoke/
+    ├── train/
+    │   ├── Mixture/
+    │   ├── NoGas/
+    │   ├── Perfume/
+    │   └── Smoke/
+    │
+    ├── validation/
+    │   ├── Mixture/
+    │   ├── NoGas/
+    │   ├── Perfume/
+    │   └── Smoke/
+    │
+    └── test/
+        ├── Mixture/
+        ├── NoGas/
+        ├── Perfume/
+        └── Smoke/
+
 
 ### About the Dataset
 
